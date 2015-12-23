@@ -1,0 +1,11 @@
+{
+    "name": "eakkabin/yii2-theme-eshopper",
+    "description": "Yii 2 E-Shopper Template",
+    "keywords": ["yii2", "framework", "template"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6"
+    }
+}
