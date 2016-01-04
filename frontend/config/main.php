@@ -55,11 +55,14 @@ return [
                 '<module:\w+>/<controller:\w+>/<action>' => '<module>/<controller>/<action>',
             ),
         ], 
+		
+		# ติดตั้ง Theme EShopper
         'view' => [
             'theme' => [
                 'pathMap' => [ '@app/views' => '@app/../themes/eshopper/views' ],
             ],
         ],
+		
     ],
     'params' => $params,
 ];
