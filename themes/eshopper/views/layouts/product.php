@@ -24,13 +24,11 @@
                                    <li>
                                         <a href="/category/1">
                                             Category 01
-                                            <span class="pull-right">(0)</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="/category/2">
                                             Category 02
-                                            <span class="pull-right">(0)</span>
                                         </a>
                                     </li>
                                 </ul>
