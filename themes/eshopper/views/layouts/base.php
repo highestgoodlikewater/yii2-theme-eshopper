@@ -75,7 +75,6 @@
                                 <div class="shop-menu pull-right">
                                     <ul class="nav navbar-nav">
                                         <li><a href="/product"><i class="fa fa-product-hunt"></i> Products</a></li>
-                                        <li><a href="/payment"><i class="fa fa-paypal"></i> Payment</a></li>
                                         <li><a href="/checkout"><i class="fa fa-send"></i> Checkout</a></li>
                                         <li><a href="/cart" id="shopping-cart"><i class="fa fa-shopping-cart"></i> Cart (0)</a></li>
                                         <?php if(\Yii::$app->user->isGuest): ?>
@@ -109,7 +108,6 @@
                                             <a href="#">Menu<i class="fa fa-angle-down"></i></a>
                                             <ul role="menu" class="sub-menu">
                                                 <li><a href="#">Products</a></li>
-                                                <li><a href="#">Payment</a></li> 
                                                 <li><a href="#">Checkout</a></li> 
                                                 <li><a href="#">Cart</a></li> 
                                             </ul>
