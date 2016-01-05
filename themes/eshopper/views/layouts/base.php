@@ -82,7 +82,7 @@
                                             <li><a href="/site/signup"><i class="fa fa-sign-in"></i> Sign up</a></li>
                                             <li><a href="/site/login"><i class="fa fa-lock"></i> Sign in</a></li>
                                         <?php else: ?>
-                                            <li><a href="/site/logout"><i class="fa fa-sign-in"></i> Sign out (<?php echo \Yii::$app->user->identity->username; ?>)</a></li>
+                                            <li><a href="/site/logout" data-method="post"><i class="fa fa-sign-in"></i> Sign out (<?php echo \Yii::$app->user->identity->username; ?>)</a></li>
                                         <?php endif; ?>
                                     </ul>
                                 </div>
