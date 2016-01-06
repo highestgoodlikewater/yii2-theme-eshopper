@@ -20,6 +20,7 @@
         
         <script type="text/javascript">
             var baseUrl = '<?php echo \Yii::$app->urlManager->createAbsoluteUrl(['/']); ?>';
+			var ShoppingTotal = 0;
         </script>
         
         <?php $this->head(); ?>
